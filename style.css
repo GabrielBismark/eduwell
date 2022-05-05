@@ -323,3 +323,159 @@ nav > div{
     color: #dc8cdb;
     text-decoration: underline; 
 }
+
+
+
+
+
+/* PROMOTION */
+
+
+
+
+.promotion-bg{
+    background-image: url(images/cta-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: local;
+    padding: 180px 0px 180px 0px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+
+}
+.promotion{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    padding: 100px;
+    margin: 0 auto;
+}
+#promotion-text{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    text-align: start;
+    color: white;
+    font-size: 17px;
+}
+#promotion-text span{
+    font-size: 62px;
+    font-weight: bold;
+    margin-left: 0;
+}
+#promotion-text p{
+    margin-left: 0;
+    font-size: 14px;
+}
+#promotion-text h1{
+    font-size: 17px;
+    margin-left: 0;
+    color: white;
+}
+#promotion-text button{
+    margin-left: 0;
+    padding: 15px 30px 15px 30px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: white;
+}
+#promotion-text button a{
+    color: #dc8cdb;
+}
+
+
+
+
+
+/* TESTIMONIALS */
+
+
+
+
+.test-tittle{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 90px;
+}
+.test-tittle h1{
+    font-size: 14px;
+    font-weight: 400;
+}
+.test-tittle > p{
+    font-size: 28px;
+    font-weight: bold;
+}
+.test-tittle p span{
+    color: #dc8cdb;
+}
+
+.test-itens{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 90px 0px 90px ;
+    max-width:1200px;
+    margin: 0 auto;
+}
+.test-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    gap: 20px;
+    
+    padding: 50px 30px 50px 30px;
+    border-radius: 7%;
+}
+.test-item:hover{
+    box-shadow: 0px 0px 15px 1px rgb(223, 223, 223);
+    transition: .5s;
+}
+.test-item h4{
+    font-size: 20px;
+    font-weight: 800;
+}
+.test-item p{
+    font-size: 16px;
+    font-style: italic;
+    line-height: 25px;
+    color: #4a4a4a;
+}
+.test-item span{
+    color: #dc8cdb;
+    font-weight: bold;
+    font-size: 13px;
+}
+.test-name{
+    display: flex;
+    justify-content: space-between;
+    gap: 110px;
+    margin-left: 0;
+}
+
+.test-buttons{
+    text-align: center;
+    margin-top: 30px;
+}
+.test-buttons button{
+    width: 10px;
+    height: 10px;
+    border-style: none;
+    background-color: gray;
+    border-radius: 50%;
+}
+.test-buttons button:hover{
+    cursor: pointer;
+}
+.test-buttons button:focus{
+    background-color: #dc8cdb;
+    transition: .2s;
+}
