@@ -390,7 +390,9 @@ nav > div{
 
 
 
+
 /* TESTIMONIALS */
+
 
 
 
@@ -478,4 +480,48 @@ nav > div{
 .test-buttons button:focus{
     background-color: #dc8cdb;
     transition: .2s;
+}
+
+
+
+
+
+/* CONTACT MAP PHONE MOBILE */
+
+
+
+
+
+.contact-map{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.map{
+    margin: 0 auto;
+}
+
+#iframe-map{
+    border-style: none;
+    border-radius: 20px;
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.contact-us > h1{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+. > p{
+    font-size: 28px;
+    font-weight: bold;
+}
+.test-tittle p span{
+    color: #dc8cdb;
 }
